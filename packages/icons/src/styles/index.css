@@ -1,0 +1,13 @@
+.ones-icon {
+  flex: none;
+  font-size: 1.143em;
+  vertical-align: -0.18em;
+  &-non-scaling-stroke {
+    circle,
+    ellipse,
+    path,
+    rect {
+      vector-effect: non-scaling-stroke;
+    }
+  }
+}
