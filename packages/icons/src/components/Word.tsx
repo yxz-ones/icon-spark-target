@@ -17,7 +17,7 @@ interface IconProps extends SVGProps<SVGSVGElement> {
   /** 图标的行内样式 */
   style?: React.CSSProperties;
 }
-const SvgAction = memo(function ({
+const SvgWord = memo(function ({
   className,
   color = 'currentColor',
   fontSize,
@@ -50,11 +50,20 @@ const SvgAction = memo(function ({
       )}
       strokeWidth={strokeWidth}
     >
-      <circle cx={3.5} cy={12} r={2} stroke="#2D2D2E" />
-      <circle cx={12.5} cy={12} r={2} stroke="#2D2D2E" />
-      <path d="M5.5 12.46 12 1.5M10.5 12.46 4 1.5" stroke="#2D2D2E" strokeLinejoin="round" />
+      <path
+        d="M2.5 2.5v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V5.414a1 1 0 0 0-.293-.707l-2.914-2.914a1 1 0 0 0-.707-.293H3.5a1 1 0 0 0-1 1Z"
+        fill="#D2E4FF"
+        stroke="#0043AA"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.5 1.5v3a1 1 0 0 0 1 1h3M5 8l1.5 4L8 8.5 9.5 12 11 8"
+        stroke="#0043AA"
+        strokeLinejoin="round"
+      />
     </svg>
   )
 })
-SvgAction.displayName = 'Action'
-export default SvgAction
+SvgWord.displayName = 'Word'
+export default SvgWord
