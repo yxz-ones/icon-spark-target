@@ -1,3 +1,5 @@
 import '../styles/index.css'
 export { default as Action } from './Action'
+export { default as ToSpace } from './ToSpace'
+export { default as WikiPage } from './WikiPage'
 export { default as Word } from './Word'
