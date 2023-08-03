@@ -51,16 +51,8 @@ const SvgWord = memo(function ({
       strokeWidth={strokeWidth}
     >
       <path
-        d="M2.5 2.5v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V5.414a1 1 0 0 0-.293-.707l-2.914-2.914a1 1 0 0 0-.707-.293H3.5a1 1 0 0 0-1 1Z"
-        fill="#D2E4FF"
-        stroke="#0043AA"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M9.5 1.5v3a1 1 0 0 0 1 1h3M5 8l1.5 4L8 8.5 9.5 12 11 8"
-        stroke="#0043AA"
-        strokeLinejoin="round"
+        d="M4 2.365V12M.73 5.635 4 2.365l3.27 3.27M8.73 10.37 12 13.64l3.27-3.27M12 13.64V4.005"
+        stroke="#575859"
       />
     </svg>
   )
