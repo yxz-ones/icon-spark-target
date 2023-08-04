@@ -37,6 +37,7 @@
     "DamageMap",
     "Dashboard",
     "DataObject",
+    "DeleteRow",
     "Describe",
     "DocumentExport",
     "DocumentImport",
