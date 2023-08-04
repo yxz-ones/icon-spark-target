@@ -1,3 +1,8 @@
 import '../styles/index.css'
 export { default as Action } from './Action'
+export { default as LeftAlign } from './LeftAlign'
+export { default as LeftLayout } from './LeftLayout'
+export { default as Line } from './Line'
+export { default as Link } from './Link'
+export { default as MenuSort } from './MenuSort'
 export { default as Word } from './Word'
