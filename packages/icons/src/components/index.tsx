@@ -1,2 +1,7 @@
 import '../styles/index.css'
-export { default as Action } from './Action'
+import '../styles/index.css'
+export { default as ConfigProvider } from './config-provider/index'
+export type { ConfigProviderProps } from './config-provider/index'
+export type { IconProps } from './types/index'
+export * from './page/index'
+export * from './outline/index'
