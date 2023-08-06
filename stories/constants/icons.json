@@ -1,49 +1,12 @@
 {
-  "NewIcons": [
-    "Maximize",
-    "Subtract",
-    "ZoomIn",
-    "ZoomOut"
-  ],
-  "deprecated": [
-    "ErrorLarge",
-    "WarningLarge"
-  ],
-  "editor": [
-    "Annotation",
-    "FullWidth",
-    "WikiText",
-    "WikiTodo"
-  ],
-  "file": [
-    "DefaultFile",
-    "DocFile",
-    "ZipFile"
-  ],
-  "filled": [
-    "Account",
-    "DingTalk",
-    "Wiki"
-  ],
-  "logo": [
-    "AccountLogo",
-    "ApiLogo",
-    "ZendeskLogo",
-    "ZoomLogo"
-  ],
-  "outline": [
-    "Action",
-    "Add",
-    "ZoomOut"
-  ],
+  "NewIcons": ["CopyBlockLink", "Maximize", "Subtract", "ZoomIn", "ZoomOut"],
+  "deprecated": ["ErrorLarge", "WarningLarge"],
+  "editor": ["Annotation", "FullWidth", "WikiText", "WikiTodo"],
+  "file": ["DefaultFile", "DocFile", "ZipFile"],
+  "filled": ["Account", "DingTalk", "Wiki"],
+  "logo": ["AccountLogo", "ApiLogo", "ZendeskLogo", "ZoomLogo"],
+  "outline": ["Action", "Add", "ZoomOut"],
   "page": ["Excel", "Word"],
-  "progress": [
-    "AddProgress",
-    "SyncProgress"
-  ],
-  "twoTone": [
-    "SortAscending",
-    "SortDescending",
-    "TableSort"
-  ]
+  "progress": ["AddProgress", "SyncProgress"],
+  "twoTone": ["SortAscending", "SortDescending", "TableSort"]
 }
