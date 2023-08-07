@@ -17,7 +17,7 @@ interface IconProps extends SVGProps<SVGSVGElement> {
   /** 图标的行内样式 */
   style?: React.CSSProperties;
 }
-const SvgTodo = memo(function ({
+const SvgVideo = memo(function ({
   className,
   color = 'currentColor',
   fontSize,
@@ -50,17 +50,16 @@ const SvgTodo = memo(function ({
       )}
       strokeWidth={strokeWidth}
     >
-      <path d="M3 10v2a1 1 0 0 0 1 1h3.5M7 8H5" stroke="#2D2D2E" />
-      <circle cx={3} cy={3} r={1.5} stroke="#2D2D2E" strokeLinecap="round" />
       <path
+        d="M1.5 3.5a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-9Z"
         stroke="#2D2D2E"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M7.5 11.5h7v3h-7zM7.5 6.5h7v3h-7zM3 6l2 2-2 2-2-2 2-2Z"
       />
-      <path d="M3 6V4.5" stroke="#2D2D2E" />
+      <path
+        d="M10.75 7.567a.5.5 0 0 1 0 .866l-4.5 2.598a.5.5 0 0 1-.75-.433V5.402a.5.5 0 0 1 .75-.433l4.5 2.598Z"
+        stroke="#2D2D2E"
+      />
     </svg>
   )
 })
-SvgTodo.displayName = 'Todo'
-export default SvgTodo
+SvgVideo.displayName = 'Video'
+export default SvgVideo

@@ -5,7 +5,7 @@
   "file": ["DefaultFile", "DocFile", "ZipFile"],
   "filled": ["Account", "DingTalk", "Wiki"],
   "logo": ["AccountLogo", "ApiLogo", "ZendeskLogo", "ZoomLogo"],
-  "outline": ["Action", "Add", "Todo", "ZoomOut"],
+  "outline": ["Add", "Todo", "Video", "ZoomOut"],
   "page": ["Excel", "Word"],
   "progress": ["AddProgress", "SyncProgress"],
   "twoTone": ["SortAscending", "SortDescending", "TableSort"]
