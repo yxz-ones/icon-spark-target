@@ -1,5 +1,5 @@
 {
-  "NewIcons": ["Maximize", "Subtract", "ZoomIn", "ZoomOut"],
+  "NewIcons": ["Maximize", "Subtract", "ZoomIn"],
   "deprecated": ["ErrorLarge", "WarningLarge"],
   "editor": ["Annotation", "FullWidth", "WikiText", "WikiTodo"],
   "file": ["DefaultFile", "DocFile", "ZipFile"],
