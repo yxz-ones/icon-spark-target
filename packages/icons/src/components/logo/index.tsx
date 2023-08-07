@@ -1,0 +1,5 @@
+export { default as AccountLogo } from './AccountLogo'
+export { default as ApiLogo } from './ApiLogo'
+export { default as TencentVideoLogo } from './TencentVideoLogo'
+export { default as ZendeskLogo } from './ZendeskLogo'
+export { default as ZoomLogo } from './ZoomLogo'
