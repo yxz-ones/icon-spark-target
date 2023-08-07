@@ -17,7 +17,7 @@ interface IconProps extends SVGProps<SVGSVGElement> {
   /** 图标的行内样式 */
   style?: React.CSSProperties;
 }
-const SvgTodo = memo(function ({
+const SvgUndo = memo(function ({
   className,
   color = 'currentColor',
   fontSize,
@@ -50,10 +50,10 @@ const SvgTodo = memo(function ({
       )}
       strokeWidth={strokeWidth}
     >
-      <rect x={1.5} y={5.5} width={13} height={5} rx={1} stroke={color} />
-      <path d="M1 2.5h14M1 13.5h14" stroke={color} />
+      <path d="M6 2 2.5 5.5 6 9" stroke="#2D2D2E" strokeLinejoin="round" />
+      <path d="M3 5.5h6.5a4 4 0 0 1 0 8H8" stroke="#2D2D2E" />
     </svg>
   )
 })
-SvgTodo.displayName = 'Todo'
-export default SvgTodo
+SvgUndo.displayName = 'Undo'
+export default SvgUndo
