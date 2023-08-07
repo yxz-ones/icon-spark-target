@@ -5,8 +5,8 @@
   "file": ["DefaultFile", "DocFile", "ZipFile"],
   "filled": ["Account", "DingTalk", "Wiki"],
   "logo": ["AccountLogo", "ApiLogo", "CutLogo", "FileLogo", "ZendeskLogo", "ZoomLogo"],
-  "outline": ["Action", "Add", "Todo", "ZoomOut"],
-  "page": ["Excel", "Word"],
+  "outline": ["Add", "Todo", "ZoomOut"],
+  "page": ["Word"],
   "progress": ["AddProgress", "SyncProgress"],
   "twoTone": ["SortAscending", "SortDescending", "TableSort"]
 }
