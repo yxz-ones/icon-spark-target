@@ -4,7 +4,7 @@
   "editor": ["Annotation", "FullWidth", "WikiText", "WikiTodo"],
   "file": ["DefaultFile", "DocFile", "ZipFile"],
   "filled": ["Account", "DingTalk", "Wiki"],
-  "logo": ["AccountLogo", "ApiLogo", "ZendeskLogo", "ZoomLogo"],
+  "logo": ["AccountLogo", "ApiLogo", "CutLogo", "ZendeskLogo", "ZoomLogo"],
   "outline": ["Action", "Add", "Todo", "ZoomOut"],
   "page": ["Excel", "Word"],
   "progress": ["AddProgress", "SyncProgress"],
