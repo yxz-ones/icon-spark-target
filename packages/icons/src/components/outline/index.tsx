@@ -1,4 +1,8 @@
+export { default as AccountLogo } from './AccountLogo'
 export { default as Action } from './Action'
 export { default as Add } from './Add'
+export { default as ApiLogo } from './ApiLogo'
 export { default as Todo } from './Todo'
+export { default as ZendeskLogo } from './ZendeskLogo'
+export { default as ZoomLogo } from './ZoomLogo'
 export { default as ZoomOut } from './ZoomOut'
