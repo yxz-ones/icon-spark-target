@@ -1,27 +1,40 @@
 import classNames from 'classnames'
-import { useConfigContext } from '../config-provider/index'
-import type { IconProps } from '../types/index'
 import * as React from 'react'
-import type { SVGProps } from 'react'
-function SvgAction(iconProps: IconProps) {
-  const {
-    className,
-    color = 'currentColor',
-    fontSize,
-    highlight,
-    nonScalingStroke = true,
-    style,
-    strokeWidth = 2,
-    ...props
-  } = useConfigContext(iconProps)
+import { SVGProps, memo } from 'react'
+interface IconProps extends SVGProps<SVGSVGElement> {
+  /** 图标的类名 */
+  className?: string;
+  /** 图标颜色，也可以通过"CSS"的"color"属性修改 */
+  color?: string;
+  /** 图标的尺寸 */
+  fontSize?: number | string;
+  /** 高亮色，仅双色图标有效 */
+  highlight?: string;
+  /** 是否阻止图标的轮廓宽度随图标的缩放而改变 */
+  nonScalingStroke?: boolean;
+  /** 图标轮廓的宽度，可选值为"1" "2" */
+  strokeWidth?: 1 | 2;
+  /** 图标的行内样式 */
+  style?: React.CSSProperties;
+}
+const SvgAction = memo(function ({
+  className,
+  color = 'currentColor',
+  fontSize,
+  highlight,
+  nonScalingStroke = true,
+  style,
+  strokeWidth = 2,
+  ...props
+}: IconProps) {
   return (
     <svg
       {...props}
-      xmlns="http://www.w3.org/2000/svg"
       width="1em"
       height="1em"
-      fill="none"
       viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
       className={classNames(
         'ones-icon',
         {
@@ -37,9 +50,10 @@ function SvgAction(iconProps: IconProps) {
       )}
       strokeWidth={strokeWidth}
     >
-      <path stroke={color} strokeLinejoin="round" d="M3 9.615 8 1v5.385h5L8 15V9.615H3Z" />
+      <path d="M2.5 14.5 8 1.5l5.5 13" stroke="#2D2D2E" strokeLinejoin="round" />
+      <path d="M4.5 9.5h7" stroke="#2D2D2E" />
     </svg>
   )
-}
+})
 SvgAction.displayName = 'Action'
 export default SvgAction
