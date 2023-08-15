@@ -8,5 +8,5 @@
   "outline": ["Action", "Add", "Todo", "ZoomOut"],
   "page": ["Excel", "Word"],
   "progress": ["AddProgress", "SyncProgress"],
-  "twoTone": ["SortAscending", "SortDescending", "TableSort"]
+  "twoTone": ["SortAscending", "SortDescending", "Status", "TableSort"]
 }
